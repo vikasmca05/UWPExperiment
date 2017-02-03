@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="OptimaBluetooth.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OptimaBluetooth"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Rectangle Fill="OrangeRed"
+                   Height="30"
+                   VerticalAlignment="Top" 
+                   />
+        <TextBlock Text="Scan Bluetooth Devices"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Left"
+                   Foreground="White"
+                   FontSize="20" 
+                   FontStyle="Oblique"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <Button x:ConnectionId='1' Name="ScanBT" Margin="40,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="True" Content="ScanBlueTooth"                        Background="Snow" BorderThickness="7" Foreground="Black">
+            </Button>
+            <Button x:ConnectionId='2' Name="ScanDevices" Margin="40,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="True" Content="ScanBDevices"                             Background="Snow" BorderThickness="7" Foreground="Black">
+            </Button>
+
+        </StackPanel>
+    </Grid>
+</Page>
+

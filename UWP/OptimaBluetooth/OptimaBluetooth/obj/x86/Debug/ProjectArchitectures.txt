@@ -1,0 +1,1 @@
+C:\Users\MyExperiments\Documents\Visual Studio 2015\Projects\UWP\OptimaBluetooth\OptimaBluetooth\OptimaBluetooth.csproj;x86
